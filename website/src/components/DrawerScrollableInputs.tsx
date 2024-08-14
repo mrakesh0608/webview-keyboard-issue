@@ -2,7 +2,7 @@
 
 import { Drawer } from "vaul";
 
-export function MyDrawerI() {
+export function DrawerScrollableInputs() {
 	return (
 		<Drawer.Root>
 			<Drawer.Trigger asChild>
