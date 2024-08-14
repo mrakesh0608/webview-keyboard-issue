@@ -9,7 +9,7 @@ export default function App() {
         flex: 1,
       }}>
       <KeyboardAvoidingView
-        style={{flex: 1}}
+        style={{flex: 1, backgroundColor: 'blue'}}
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
         <WebView
           source={{uri: 'http://localhost:3000'}}
