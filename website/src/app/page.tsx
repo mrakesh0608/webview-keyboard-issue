@@ -11,7 +11,7 @@ export default function Home() {
 				<DrawerScrollableInputs />
 			</div>
 			<div className="flex flex-1 justify-end flex-col">
-				<p className="bg-warning text-center text-sm">End of Page</p>
+				<p className="bg-orange-300 text-center text-sm">Sticky Footer</p>
 			</div>
 		</main>
 	);

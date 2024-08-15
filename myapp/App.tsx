@@ -12,7 +12,7 @@ export default function App() {
         style={{flex: 1, backgroundColor: 'blue'}}
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
         <WebView
-          source={{uri: 'http://localhost:3000'}}
+          source={{uri: 'https://webview-keyboard-issue.vercel.app', flex: 1}}
           style={{backgroundColor: 'red'}}
         />
       </KeyboardAvoidingView>
